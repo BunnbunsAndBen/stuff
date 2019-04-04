@@ -1,0 +1,1 @@
+if(location.host == "bunnbuns.github.io"){ document.getElementById("post-reddit-theme").disabled = true; }
