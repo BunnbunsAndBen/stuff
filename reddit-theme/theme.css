@@ -307,8 +307,8 @@ textarea {
     box-shadow: none;
     font-weight: 400;
 }
-.relyto:hover{
-    color: #343434;
+.replyto:hover{
+    color: #343434 !important;
     box-shadow: none !important;
 }
 
