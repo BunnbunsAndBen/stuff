@@ -5,7 +5,9 @@
 div.cssbox {
   display: inline-block;
 }
-
+div.cssbox a{
+   text-decoration:none;
+}
 span.cssbox_full {
   position: fixed;
   height: 100%;
