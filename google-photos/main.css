@@ -1,0 +1,44 @@
+@font-face {
+  font-family: ps;
+  src: url('product-sans.woff2');
+}
+@font-face {
+  font-family: ps-light;
+  src: url('product-sans-light.woff2');
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url('roboto.woff2');
+}
+.google-photos-btn{
+    display:inline-block;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-family: ps, Roboto, Arial, sans-serif;
+    color: rgba(25, 25, 25, 0.875);
+    text-decoration: none;
+    border-radius: 5px;
+    padding:4px 8px 4px 4px;
+    border: solid 1px rgba(65, 65, 65, .98);
+}
+.google-photos-btn img{
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle
+}
+.btn-text{
+    margin:0 5px;
+    display: inline-block;
+    vertical-align: middle
+}
+.google-photos-btn:hover{
+    border: solid 1px rgba(60, 60, 60, 1);
+    background-color: #f4faff;
+}
+.google-photos-btn:focus, .google-photos-btn:active{
+    border: solid 1px rgba(20, 20, 20, 1);
+    background-color: #eaf5ff;
+}
